@@ -741,6 +741,9 @@ footer .logo {
   background-position: center;
   background-size: contain;
 }
+.checkbox:focus + .icon {
+  border-color: var(--accent-color);
+}
 .form .button-send {
   width: 200px;
   font-weight: 700;
